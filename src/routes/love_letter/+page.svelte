@@ -32,56 +32,25 @@
     <img src="images/love_letter.png" alt="Love Letter" data-aos="fade-left" />
 </div>
 
-<!-- <div class="section bg-slate-100 dark:bg-slate-800">
+<div class="section bg-slate-100 dark:bg-slate-800">
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
-        Work Experience
+        Gameplay
     </h1>
-    <WorkExperience
-        company="Periscope Capital"
-        title="Software Developer Intern"
-        list={[
-            "Maintained and improved the in-house software built using C# and WinForms. Implemented various features and fixed critical bugs which led to increase in productivity.",
-            "Managed and queried several SQL databases (including MySQL and Postgres) that contained 10+ years worth of data for the company.",
-            // TODO talk about Cache and ModifiedHelper
-        ]}
-    >
-        <img
-            class="dark:bg-white"
-            slot="image"
-            src="https://www.periscopecap.com/wp-content/uploads/2018/09/cropped-periscope_big_logo.png"
-            alt="Periscope Capital"
-        /></WorkExperience
-    >
-    <WorkExperience
-        company="Kidney Health Education and Research Group"
-        title="Full Stack Web Developer"
-        list={[
-            "Built Wordpress web pages with PHP, Bootstrap, and MySQL database integration",
-            "Engineered a full stack web application using Dropbox API which boosted efficiency of writing research papers by 40%",
-            "Led a 4 man team on revamping a website's UX design using Figma prototyping and CSS",
-        ]}
-    >
-        <img
-            class="dark:bg-white"
-            slot="image"
-            src="https://nefros.net/wp-content/uploads/2018/07/nefros-logo_kherg-lettering-word-and.png"
-            alt="Kidney Health Education and Research Group"
-        /></WorkExperience
-    >
-    <WorkExperience
-        company="So Golf Academy"
-        title="Marketing Assistant"
-        list={[
-            "Designed the official website using Wix, resulting in significant increase in online traffic",
-            "Implemented bilingual translation which gave access to Toronto's huge Chinese golfing customer base and led to a 50% increase in clients",
-            "Created professional posters and flyers using Inkscape, increased customer engagement by 80%",
-        ]}
-    >
-        <div class="flex justify-center" slot="image">
-            <img class="h-52" src="images/sogolf.png" alt="So Golf Academy" />
-        </div>
-    </WorkExperience>
-</div> -->
+    <p class="text-stone-300 mb-8" data-aos="fade-up">
+        The gameplay is based on the card game
+        <Link
+            text="Love Letter™"
+            url="https://www.zmangames.com/en/games/love-letter/"
+        /> and is very straightforward. The players simply have to choose a card
+        to play, and optionally choose a target for example via a modal dialog on
+        their turn. The UI has been designed to be intuitive so that even new players
+        can start playing the game right away with minimal guidance. Playtesters
+        were able to navigate the UI and play the game without any frustrations.
+        For example, every time when the user plays a card, a confirmation dialog
+        is shown to prevent misclicks and to remind the user that it is an irreversible
+        action.
+    </p>
+</div>
 
 <!-- <div class="section">
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
