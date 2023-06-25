@@ -124,6 +124,7 @@
         <Project
             name="Hackermatch"
             description="A Tinder-like matching web app for hackers to easily find teammates for hackathons. Built with jQuery, Materialize, Node.js, Express, Heroku, and Firebase"
+            url="/hackermatch"
             ><img
                 slot="image"
                 src="images/hacker_match.png"

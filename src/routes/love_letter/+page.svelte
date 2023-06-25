@@ -1,6 +1,7 @@
 <script>
     import Link from "$components/Link.svelte";
     import Button from "$components/Button.svelte";
+    import Carousel from "$components/Carousel.svelte";
 </script>
 
 <div class="section grid md:grid-cols-2 gap-10 py-20">
@@ -34,75 +35,32 @@
 
 <div class="section bg-slate-100 dark:bg-slate-800">
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
-        Gameplay
+        User Interface
     </h1>
-    <p class="text-stone-300 mb-8" data-aos="fade-up">
-        The gameplay is based on the card game
-        <Link
-            text="Love Letter™"
-            url="https://www.zmangames.com/en/games/love-letter/"
-        /> and is very straightforward. The players simply have to choose a card
-        to play, and optionally choose a target for example via a modal dialog on
-        their turn. The UI has been designed to be intuitive so that even new players
-        can start playing the game right away with minimal guidance. Playtesters
+    <p class="text-slate-700 dark:text-slate-300 mb-8" data-aos="fade-up">
+        The UI has been designed to be intuitive so that even new players can
+        start playing the game right away with minimal guidance. Playtesters
         were able to navigate the UI and play the game without any frustrations.
-        For example, every time when the user plays a card, a confirmation dialog
+        The website also supports light and dark theme right out of the box, and
+        is playable both on desktop and mobile.
+        <!-- For example, every time when the user plays a card, a confirmation dialog
         is shown to prevent misclicks and to remind the user that it is an irreversible
-        action.
+        action. -->
     </p>
+    <Carousel>
+        <img src="images/love_letter/themes.png" alt="" />
+        <img src="images/love_letter/mobile.png" alt="" />
+    </Carousel>
 </div>
 
-<!-- <div class="section">
+<div class="section">
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
-        My Projects
+        Bot Support
     </h1>
-    <div class="grid md:grid-cols-3 gap-10">
-        <Project
-            name="Bayview Battle Royale"
-            description="A Minecraft server built with Java, Kotlin, and the Spigot API, featuring guns, a variety of gamemodes, bots, and purchasable cosmetics"
-            url="/bbr"
-            ><img
-                slot="image"
-                src="images/bbr.png"
-                alt="Bayview Battle Royale"
-            /></Project
-        >
-        <Project
-            name="Love Letter"
-            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Fly.io"
-            ><img
-                slot="image"
-                src="images/love_letter.png"
-                alt="Love Letter"
-            /></Project
-        >
-        <Project
-            name="Alice Mazes"
-            description="A React app where users can play, edit, or have it automatically solve logic mazes invented by Robert Abbott"
-            ><img
-                slot="image"
-                src="images/alice_maze.png"
-                alt="Alice Mazes"
-            /></Project
-        >
-        <Project
-            name="Hackermatch"
-            description="A Tinder-like matching web app for hackers to easily find teammates for hackathons. Built with jQuery, Materialize, Node.js, Express, Heroku, and Firebase"
-            ><img
-                slot="image"
-                src="images/hacker_match.png"
-                alt="Hackermatch"
-            /></Project
-        >
-        <Project
-            name="Alchemy"
-            description="A desktop game app inspired by games like Little Alchemy and Doodle God with full modding/addon support. Written in Java using the Processing Library."
-            url="https://github.com/lidickson1/Alchemy2"
-            ><img
-                slot="image"
-                src="https://cdn.discordapp.com/attachments/269226485951234068/664307072564985876/screenshot.png"
-                alt="Alchemy"
-            /></Project
-        >
-    </div>
-</div> -->
+    <p class="text-slate-700 dark:text-slate-300 mb-8" data-aos="fade-up">
+        The room's host can choose to add as many bots as they want if they want
+        to have more players. These bots will play cards like a normal player.
+        This makes it a perfect app to kill time when you're bored.
+    </p>
+    <img src="images/love_letter/bots.png" alt="" />
+</div>
