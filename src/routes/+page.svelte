@@ -5,30 +5,20 @@
 </script>
 
 <div class="section grid md:grid-cols-3 gap-10 py-20">
-    <div
-        class="md:col-span-2 flex flex-col justify-center"
-        data-aos="fade-right"
-    >
+    <div class="md:col-span-2 flex flex-col justify-center" data-aos="fade-right">
         <div>
             <h1 class="text-6xl font-bold">Dickson Li</h1>
             <p class="my-16 text-slate-700 dark:text-white">
-                Software engineer with 5+ years of development experience,
-                effective collaborator, constantly striving to provide the most
-                professional and outstanding results
+                Software engineer with 5+ years of development experience, effective collaborator,
+                constantly striving to provide the most professional and outstanding results
                 <br />
-                Undergraduate studying at the University of Toronto as a Computer
-                Science Specialist, expected to graduate in 2024
+                Undergraduate studying at the University of Toronto as a Computer Science Specialist,
+                expected to graduate in 2024
             </p>
             <div class="flex justify-around text-4xl">
                 <IconLink icon="mdi-email" link="mailto:lidickson1@gmail.com" />
-                <IconLink
-                    icon="mdi-github"
-                    link="https://github.com/lidickson1"
-                />
-                <IconLink
-                    icon="mdi-linkedin"
-                    link="https://www.linkedin.com/in/lidickson1/"
-                />
+                <IconLink icon="mdi-github" link="https://github.com/lidickson1" />
+                <IconLink icon="mdi-linkedin" link="https://www.linkedin.com/in/lidickson1/" />
             </div>
         </div>
     </div>
@@ -36,15 +26,15 @@
 </div>
 
 <div class="section bg-slate-100 dark:bg-slate-800">
-    <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
-        Work Experience
-    </h1>
+    <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">Work Experience</h1>
     <WorkExperience
         company="Periscope Capital"
         title="Software Developer Intern"
         list={[
-            "Maintained and improved the in-house software built using C# and WinForms. Implemented various features and fixed critical bugs which led to increase in productivity.",
-            "Managed and queried several SQL databases (including MySQL and Postgres) that contained 10+ years worth of data for the company.",
+            "Maintained and improved the in-house software built using C# and WinForms.",
+            "Implemented various features and fixed critical bugs which led to increase in productivity.",
+            "Managed several SQL databases (including MySQL and Postgres) that contained 10+ years worth of data for the company.",
+            "Collaborated and communicated daily with team members regarding urgent bug fixes.",
             // TODO talk about Cache and ModifiedHelper
         ]}
     >
@@ -87,49 +77,31 @@
 </div>
 
 <div class="section">
-    <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">
-        My Projects
-    </h1>
+    <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">My Projects</h1>
     <div class="grid md:grid-cols-3 gap-10">
         <Project
             name="Bayview Battle Royale"
             description="A Minecraft server built with Java, Kotlin, and the Spigot API, featuring guns, a variety of gamemodes, bots, and purchasable cosmetics"
             url="/bbr"
-            ><img
-                slot="image"
-                src="images/bbr.png"
-                alt="Bayview Battle Royale"
-            /></Project
+            ><img slot="image" src="images/bbr.png" alt="Bayview Battle Royale" /></Project
         >
         <Project
             name="Love Letter"
-            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Fly.io"
+            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Gigalixir"
             url="/love_letter"
-            ><img
-                slot="image"
-                src="images/love_letter.png"
-                alt="Love Letter"
-            /></Project
+            ><img slot="image" src="images/love_letter.png" alt="Love Letter" /></Project
         >
         <Project
             name="Alice Mazes"
             description="A React app where users can play, edit, or have it automatically solve logic mazes invented by Robert Abbott"
             url="https://alice-maze.vercel.app/"
-            ><img
-                slot="image"
-                src="images/alice_maze.png"
-                alt="Alice Mazes"
-            /></Project
+            ><img slot="image" src="images/alice_maze.png" alt="Alice Mazes" /></Project
         >
         <Project
             name="Hackermatch"
             description="A Tinder-like matching web app for hackers to easily find teammates for hackathons. Built with jQuery, Materialize, Node.js, Express, Heroku, and Firebase"
             url="/hackermatch"
-            ><img
-                slot="image"
-                src="images/hacker_match.png"
-                alt="Hackermatch"
-            /></Project
+            ><img slot="image" src="images/hacker_match.png" alt="Hackermatch" /></Project
         >
         <Project
             name="Alchemy"
