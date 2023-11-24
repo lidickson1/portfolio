@@ -9,16 +9,16 @@
         <div>
             <h1 class="text-6xl font-bold">Dickson Li</h1>
             <p class="my-16 text-slate-700 dark:text-white">
-                Software engineer with 5+ years of development experience, effective collaborator,
+                Software engineer with 4+ years of development experience, effective collaborator,
                 constantly striving to provide the most professional and outstanding results
                 <br />
                 Undergraduate studying at the University of Toronto as a Computer Science Specialist,
-                expected to graduate in 2024
+                expected to graduate in May 2024
             </p>
             <div class="flex justify-around text-4xl">
-                <IconLink icon="mdi-email" link="mailto:lidickson1@gmail.com" />
                 <IconLink icon="mdi-github" link="https://github.com/lidickson1" />
                 <IconLink icon="mdi-linkedin" link="https://www.linkedin.com/in/lidickson1/" />
+                <IconLink icon="mdi-email" link="mailto:lidickson1@gmail.com" />
             </div>
         </div>
     </div>
@@ -30,12 +30,13 @@
     <WorkExperience
         company="Periscope Capital"
         title="Software Developer Intern"
+        dates="2022 May - Present"
         list={[
-            "Maintained and improved the in-house software built using C# and WinForms.",
-            "Implemented various features and fixed critical bugs which led to increase in productivity.",
+            "Maintained and improved the in-house software built using C#, DevExpress, and WinForms.",
+            "Implemented various features and fixed critical bugs which led to increase in productivity while ensuring data integrity.",
             "Managed several SQL databases (including MySQL and Postgres) that contained 10+ years worth of data for the company.",
-            "Collaborated and communicated daily with team members regarding urgent bug fixes.",
-            // TODO talk about Cache and ModifiedHelper
+            "Collaborated daily with team members and took frequent initiative in bug fixes and new features.",
+            // TODO talk about Cache and ModifiedHelper?
         ]}
     >
         <img
@@ -48,6 +49,7 @@
     <WorkExperience
         company="Kidney Health Education and Research Group"
         title="Full Stack Web Developer"
+        dates="2021 May - 2022 May"
         list={[
             "Built Wordpress web pages with PHP, Bootstrap, and MySQL database integration",
             "Engineered a full stack web application using Dropbox API which boosted efficiency of writing research papers by 40%",
@@ -64,6 +66,7 @@
     <WorkExperience
         company="So Golf Academy"
         title="Marketing Assistant"
+        dates="2020 May - 2020 Aug"
         list={[
             "Designed the official website using Wix, resulting in significant increase in online traffic",
             "Implemented bilingual translation which gave access to Toronto's huge Chinese golfing customer base and led to a 50% increase in clients",
@@ -71,7 +74,7 @@
         ]}
     >
         <div class="flex justify-center" slot="image">
-            <img class="h-52" src="images/sogolf.png" alt="So Golf Academy" />
+            <img class="h-44 mt-4" src="images/sogolf.png" alt="So Golf Academy" />
         </div>
     </WorkExperience>
 </div>
