@@ -18,8 +18,8 @@
                     text="Socket.IO"
                     url="https://socket.io/"
                 />. Deployed on <Link text="Vercel" url="https://vercel.com/" />
-                and <Link text="Gigalixir" url="https://www.gigalixir.com/" />. The game can be
-                played both on a computer and on a mobile device. It also has full bot support.
+                and <Link text="Fly.io" url="https://fly.io/" />. The game can be played both on a
+                computer and on a mobile device. It also has full bot support.
             </p>
             <Button text="Play now!" url="https://love-letter-resume.vercel.app/" />
         </div>

@@ -9,7 +9,7 @@
         <div>
             <h1 class="text-6xl font-bold">Dickson Li</h1>
             <p class="my-16 text-slate-700 dark:text-white">
-                Software engineer with 4+ years of development experience, effective collaborator,
+                Software engineer with 6+ years of development experience, effective collaborator,
                 constantly striving to provide the most professional and outstanding results
                 <br />
                 Undergraduate studying at the University of Toronto as a Computer Science Specialist,
@@ -90,7 +90,7 @@
         >
         <Project
             name="Love Letter"
-            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Gigalixir"
+            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Fly.io"
             url="/love_letter"
             ><img slot="image" src="images/love_letter.png" alt="Love Letter" /></Project
         >
