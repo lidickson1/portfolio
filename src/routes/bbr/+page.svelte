@@ -8,7 +8,7 @@
     <div class="flex flex-col justify-center" data-aos="fade-right">
         <img
             style="box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);"
-            src="images/bbr_square.png"
+            src="/images/bbr_square.png"
             alt="Bayview Battle Royale Logo"
         />
     </div>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="flex flex-col justify-center" data-aos="fade-left">
-        <img src="images/bbr.png" alt="Bayview Battle Royale" />
+        <img src="/images/bbr.png" alt="Bayview Battle Royale" />
     </div>
 </div>
 
@@ -63,12 +63,12 @@
     <div class="-mx-10 md:mx-0">
         {#if browser}
             <Carousel autoplay>
-                <img src="images/bbr/battle_royale/0.png" alt="" />
-                <img src="images/bbr/battle_royale/1.png" alt="" />
-                <img src="images/bbr/battle_royale/2.png" alt="" />
-                <img src="images/bbr/battle_royale/3.png" alt="" />
-                <img src="images/bbr/battle_royale/4.png" alt="" />
-                <img src="images/bbr/battle_royale/5.png" alt="" />
+                <img src="/images/bbr/battle_royale/0.png" alt="" />
+                <img src="/images/bbr/battle_royale/1.png" alt="" />
+                <img src="/images/bbr/battle_royale/2.png" alt="" />
+                <img src="/images/bbr/battle_royale/3.png" alt="" />
+                <img src="/images/bbr/battle_royale/4.png" alt="" />
+                <img src="/images/bbr/battle_royale/5.png" alt="" />
             </Carousel>
         {/if}
     </div>
@@ -94,9 +94,9 @@
     <div class="-mx-10 md:mx-0">
         {#if browser}
             <Carousel autoplay>
-                <img src="images/bbr/bots/0.png" alt="" />
-                <img src="images/bbr/bots/1.png" alt="" />
-                <img src="images/bbr/bots/2.png" alt="" />
+                <img src="/images/bbr/bots/0.png" alt="" />
+                <img src="/images/bbr/bots/1.png" alt="" />
+                <img src="/images/bbr/bots/2.png" alt="" />
             </Carousel>
         {/if}
     </div>
@@ -122,10 +122,10 @@
     <div class="-mx-10 md:mx-0">
         {#if browser}
             <Carousel autoplay>
-                <img src="images/bbr/cosmetics/0.png" alt="" />
-                <img src="images/bbr/cosmetics/1.png" alt="" />
-                <img src="images/bbr/cosmetics/2.png" alt="" />
-                <img src="images/bbr/cosmetics/3.png" alt="" />
+                <img src="/images/bbr/cosmetics/0.png" alt="" />
+                <img src="/images/bbr/cosmetics/1.png" alt="" />
+                <img src="/images/bbr/cosmetics/2.png" alt="" />
+                <img src="/images/bbr/cosmetics/3.png" alt="" />
             </Carousel>
         {/if}
     </div>

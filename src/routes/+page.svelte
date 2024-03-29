@@ -29,14 +29,16 @@
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">Work Experience</h1>
     <WorkExperience
         company="Periscope Capital"
-        title="Software Developer Intern"
+        title="Software Developer"
         dates="2022 May - Present"
         list={[
-            "Maintained and improved the in-house software built using C#, DevExpress, and WinForms.",
-            "Implemented various features and fixed critical bugs which led to increase in productivity while ensuring data integrity.",
-            "Managed several SQL databases (including MySQL and Postgres) that contained 10+ years worth of data for the company.",
-            "Collaborated daily with team members and took frequent initiative in bug fixes and new features.",
-            // TODO talk about Cache and ModifiedHelper?
+            "Maintained and improved the in-house software built with C#, DevExpress, and WinForms",
+            "Implemented more than 180 features and bug fixes over the course of my work term",
+            "Managed several SQL databases (MySQL, Postgres) containing 10+ years worth of data",
+            "Built a robust and flexible caching system that reduced over 90% boilerplate code while improving data lookup performance",
+            "Engineered a database synchronization system that automatically clones production databases into a local environment, which sped up crucial development workflows by 10x",
+            "Collaborated daily with team members and took frequent initiative in bug fixes and new features",
+            // TODO talk about ModifiedHelper?
         ]}
     >
         <img
@@ -51,9 +53,9 @@
         title="Full Stack Web Developer"
         dates="2021 May - 2022 May"
         list={[
-            "Built Wordpress web pages with PHP, Bootstrap, and MySQL database integration",
-            "Engineered a full stack web application using Dropbox API which boosted efficiency of writing research papers by 40%",
-            "Led a 4 man team on revamping a website's UX design using Figma prototyping and CSS",
+            "Built and updated Wordpress web pages with PHP, Bootstrap, and MySQL database integration to enhance user experience by implementing new features and fixing critical bugs",
+            "Engineered a research paper writing tool as a full stack web application using Javascript and Dropbox API, which boosted efficiency of writing papers by 40%",
+            "Led a 4 man team on revamping a website's UX design in order to user traffic and retention using Figma, Bootstrap, and CSS",
         ]}
     >
         <img
@@ -112,7 +114,7 @@
             url="https://github.com/lidickson1/Alchemy2"
             ><img
                 slot="image"
-                src="https://cdn.discordapp.com/attachments/269226485951234068/664307072564985876/screenshot.png"
+                src="https://github.com/lidickson1/Alchemy2/blob/master/screenshot.png?raw=true"
                 alt="Alchemy"
             /></Project
         >
