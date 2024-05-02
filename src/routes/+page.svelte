@@ -92,9 +92,15 @@
         >
         <Project
             name="Love Letter"
-            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, Bulma, Express, and Socket.IO. Deployed on Vercel and Fly.io"
+            description="A full stack multiplayer web browser game based on the card game Love Letter™. Built using React, NextUI, Express, and Socket.IO. Deployed on Vercel and Fly.io"
             url="/love_letter"
             ><img slot="image" src="images/love_letter.png" alt="Love Letter" /></Project
+        >
+        <Project
+            name="Wiki Clone"
+            description="A Wikipedia like website built using Javascript, Next.js, and Bulma. Deployed on Vercel"
+            url="https://wiki-two-flame.vercel.app/"
+            ><img slot="image" src="images/wiki.png" alt="Wiki Clone" /></Project
         >
         <Project
             name="Alice Mazes"
