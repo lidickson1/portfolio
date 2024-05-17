@@ -2,13 +2,15 @@
     import Link from "$components/Link.svelte";
     import { browser } from "$app/environment";
     import Carousel from "svelte-carousel";
+
+    import bbr_square from "$lib/images/bbr_square.png";
 </script>
 
 <div class="section grid md:grid-cols-4 gap-14 py-20 bg-stone-950 text-white">
     <div class="flex flex-col justify-center" data-aos="fade-right">
         <img
             style="box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);"
-            src="/images/bbr_square.png"
+            src={bbr_square}
             alt="Bayview Battle Royale Logo"
         />
     </div>
