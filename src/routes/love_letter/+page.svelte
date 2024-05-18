@@ -18,8 +18,8 @@
                     text="Socket.IO"
                     url="https://socket.io/"
                 />. Deployed on <Link text="Vercel" url="https://vercel.com/" />
-                and <Link text="Fly.io" url="https://fly.io/" />. The game can be played both on a
-                computer and on a mobile device. It also has full bot support and custom lobbies.
+                and <Link text="Fly.io" url="https://fly.io/" />. The game can be played both
+                desktop and mobile devices. It also has full bot support and custom lobbies.
             </p>
             <Button text="Play now!" url="https://love-letter-resume.vercel.app/" />
         </div>
@@ -31,13 +31,11 @@
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">User Interface</h1>
     <p class="text-slate-700 dark:text-slate-300 mb-8" data-aos="fade-up">
         The user interface has been developed to be user friendly through multiple iterations based
-        on player feedback. A tutorial is also included for new players to learn how to play the
-        game. Players can create their own rooms, or join other people's rooms just like in many
-        online multiplayer games. The website supports light and dark theme right out of the box,
-        and is playable both on desktop and mobile.
-        <!-- For example, every time when the user plays a card, a confirmation dialog
-        is shown to prevent misclicks and to remind the user that it is an irreversible
-        action. -->
+        on player feedback. A tutorial is included for new players to learn how to play the game.
+        Players can create their own rooms or join other people's rooms to play. The website
+        natively supports light and dark theme, and is playable both on desktop and mobile. It can
+        even be installed as a progressive web app on mobile devices which comes with notifications
+        support.
     </p>
     <Carousel>
         <img src="/images/love_letter/themes.png" alt="" />

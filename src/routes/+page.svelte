@@ -1,4 +1,5 @@
 <script>
+    import Icon from "@iconify/svelte";
     import IconLink from "$components/IconLink.svelte";
     import WorkExperience from "$components/WorkExperience.svelte";
     import Project from "$components/Project.svelte";
@@ -10,24 +11,31 @@
     import wiki from "$lib/images/wiki.png";
 </script>
 
-<div class="section grid md:grid-cols-3 gap-10 py-20">
-    <div class="md:col-span-2 flex flex-col justify-center" data-aos="fade-right">
-        <div>
-            <h1 class="text-6xl font-bold">Dickson Li</h1>
-            <p class="my-16 text-slate-700 dark:text-white">
-                Software engineer with 6+ years of development experience, effective collaborator,
-                constantly striving to provide the most professional and outstanding results
-                <br />
-                Graduated from the University of Toronto as a Computer Science Specialist in spring 2024
-            </p>
-            <div class="flex justify-around text-4xl">
-                <IconLink icon="mdi-github" link="https://github.com/lidickson1" />
-                <IconLink icon="mdi-linkedin" link="https://www.linkedin.com/in/lidickson1/" />
-                <IconLink icon="mdi-email" link="mailto:lidickson1@gmail.com" />
+<div class="section">
+    <div class="grid md:grid-cols-3 gap-10">
+        <div class="md:col-span-2 flex flex-col justify-center" data-aos="fade-right">
+            <div>
+                <h1 class="text-6xl font-bold">Dickson Li</h1>
+                <p class="my-16 text-slate-700 dark:text-white">
+                    Software engineer with 6+ years of development experience, effective
+                    collaborator, constantly striving to provide the most professional and
+                    outstanding results
+                    <br />
+                    Graduated from the University of Toronto as a Computer Science Specialist in spring
+                    2024
+                </p>
+                <div class="flex justify-around text-4xl">
+                    <IconLink icon="mdi-github" link="https://github.com/lidickson1" />
+                    <IconLink icon="mdi-linkedin" link="https://www.linkedin.com/in/lidickson1/" />
+                    <IconLink icon="mdi-email" link="mailto:lidickson1@gmail.com" />
+                </div>
             </div>
         </div>
+        <img src={my_face} alt="Dickson Li" data-aos="fade-left" />
     </div>
-    <img src={my_face} alt="Dickson Li" data-aos="fade-left" />
+    <div class="flex justify-center mt-12 text-3xl h-10">
+        <Icon icon="bi:chevron-down" id="scroll-indicator" />
+    </div>
 </div>
 
 <div class="section bg-slate-100 dark:bg-slate-800">
@@ -106,6 +114,16 @@
             description="A Wikipedia like website built using Javascript, Next.js, and Bulma. Deployed on Vercel"
             url="https://wiki-two-flame.vercel.app/"
             ><img slot="image" src={wiki} alt="Wiki Clone" /></Project
+        >
+        <Project
+            name="Job Applications Tracker"
+            description="A full stack app built to track my job applications. Built with Angular, Spring Boot, Oracle SQL"
+            url="https://github.com/lidickson1/job-apps-tracker"
+            ><img
+                slot="image"
+                src="https://github.com/lidickson1/job-apps-tracker/raw/master/screenshot.png?raw=true"
+                alt="Job Applications Tracker"
+            /></Project
         >
         <Project
             name="Alice Mazes"
