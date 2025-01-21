@@ -117,7 +117,7 @@
         >
         <Project
             name="Job Applications Tracker"
-            description="A full stack app built to track my job applications. Built with Angular, Spring Boot, Oracle SQL"
+            description="A full stack web app for tracking my job applications. Built with Angular, Spring Boot, Oracle SQL"
             url="https://github.com/lidickson1/job-apps-tracker"
             ><img
                 slot="image"
