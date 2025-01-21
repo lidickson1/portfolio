@@ -41,6 +41,21 @@
 <div class="section bg-slate-100 dark:bg-slate-800">
     <h1 class="text-4xl font-bold text-center mb-10" data-aos="fade-down">Work Experience</h1>
     <WorkExperience
+        company="Zūm Rails"
+        title="Full Stack Developer"
+        dates="2024 Aug - Present"
+        list={[
+            "Developed and maintained both front-end and back-end of web applications to enhance performance, scalability, and user experience",
+        ]}
+    >
+        <img
+            class="p-10"
+            slot="image"
+            src="https://zumrails.com/wp-content/uploads/2021/08/zumrails-logo-png-2.png"
+            alt="Zūm Rails"
+        /></WorkExperience
+    >
+    <WorkExperience
         company="Periscope Capital"
         title="Software Developer"
         dates="2022 May - 2024 April"
@@ -55,9 +70,8 @@
         ]}
     >
         <img
-            class="dark:bg-white"
             slot="image"
-            src="https://www.periscopecap.com/wp-content/uploads/2018/09/cropped-periscope_big_logo.png"
+            src="https://www.periscopecap.com/images/periscope-capital.svg"
             alt="Periscope Capital"
         /></WorkExperience
     >
